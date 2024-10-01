@@ -54,7 +54,7 @@ def calculator(num1, num2, operation):
 
 if __name__ == "__main__":
     num1 = int(input("Please enter number1 :"))
-    num2 = int(input("Please enter number1 :"))
+    num2 = int(input("Please enter number2 :"))
     operation = input("Choose: add, sub, mul, div :")
     
     result = calculator(num1, num2, operation)
